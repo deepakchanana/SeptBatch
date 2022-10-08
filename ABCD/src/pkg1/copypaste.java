@@ -12,6 +12,7 @@ public class copypaste
 {
 	public void ReadWrite() throws IOException
 	{
+		System.out.println("Changes done by deepak");
 		File f1=new File("../ABCD/inputfile.txt");
 		File f2=new File("../ABCD/inputfile2.txt");
 		FileReader fr=new FileReader(f1);
